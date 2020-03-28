@@ -24,8 +24,6 @@ public class Main extends Application {
     Scene gameScreen;
     Scene summaryScreen;
 
-
-
     public static void main(String[] args) {
         launch(args);
     }
@@ -89,6 +87,8 @@ public class Main extends Application {
         });
 
         primaryStage.show();
+
+        System.out.println("dsfdf");
 
     }
 
